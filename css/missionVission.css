@@ -1,0 +1,148 @@
+/* Mission & Vision Section */
+.mission-vision-section {
+    height: 125vh;
+    padding-top: 90px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+
+/* Mission & Vision Container */
+.mission-vision-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Creates space between image and content */
+    flex-wrap: wrap;
+    width: 90%;
+    /* max-width: 1200px; */
+    gap: 50px; /* Increased gap for better separation */
+}
+
+/* Left Side Image */
+.mission-vision-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px; /* Adds space around the image */
+}
+
+.mission-vision-image img {
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Mission & Vision Content with Frame */
+.mission-vision-content {
+    flex: 1;
+    text-align: left;
+    padding: 60px; /* Adjust padding based on frame size */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    
+
+}
+
+
+
+/* Mission & Vision Cards */
+.mission-vision-card {
+    border-radius: 10px;
+    padding: 40px;
+    color: #BF7F29;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    background: url('/Assets/mv-card.webp') no-repeat center;
+    background-size: 100% 100%; 
+    background-color: #18131996;
+
+}
+
+.vm-heading{
+    font-family: "Heading font", sans-serif;
+    text-shadow: 0px 3px 6px #ff0000;
+
+}
+
+.vm-para{
+    color: white;
+}
+
+.mission-vision-card:hover {
+
+    background: url('/Assets/mv-card.webp') no-repeat center;
+    background-size: 100% 100%; 
+    transform: scale(1.05);
+    background-color: #181319;
+
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .mission-vision-container {
+        gap: 30px; /* Slightly reduce gap for medium screens */
+   
+    }
+
+    .mission-vision-content {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-vision-section {
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+
+    }
+
+    .mission-vision-card{
+        background-image: url('/Assets/mv-card.webp'); /* Mobile-Specific Image */
+        background-size: cover; /* Ensures full coverage */
+        background-position: top center;
+        background-attachment: scroll;
+        width: 100%; /* Make cards full width */
+        padding: 30px; /* Adjust padding for mobile */
+        /* width: 100%; */
+    }
+    .mission-vision-card:hover {
+
+        background: url('/Assets/mv-card.webp') no-repeat center;
+        background-size: 100%; 
+        transform: scale(1.05);
+    }
+
+    .mission-vision-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 90%;
+
+    }
+
+    .mission-vision-content {
+        text-align: center; /* Centers heading */
+        width: 100%;
+        padding: 0; /* Remove extra padding */
+    }
+    .vm-heading {
+        text-align: center; /* Center aligns heading */
+        width: 100%;
+    }
+    .vm-para {
+        text-align: left; /* Ensures text spans full width */
+        width: 100%;
+        display: block; /* Ensures it behaves as block for full width */
+    }
+
+
+    .mission-vision-image {
+        padding: 10px;
+    }
+}

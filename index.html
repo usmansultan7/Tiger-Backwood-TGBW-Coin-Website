@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIGER BACKWOODS $TGBW</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/heroSection.css">
+    <link rel="stylesheet" href="css/missionVission.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/coreFeature.css">
+    <link rel="stylesheet" href="css/tokenAllocation.css">
+    <link rel="stylesheet" href="css/roadMap.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo on the left -->
+        <a class="navbar-brand" href="#">
+            <img class="px-2" src="/Assets/logo2.webp" class="img-fluid img-logo" alt="Logo">
+        </a>
+        
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Centered Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link fs-4 fw-bold px-3 py-2 rounded-pill" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 fw-bold px-3 py-2 rounded-pill" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 fw-bold px-3 py-2 rounded-pill" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-4 fw-bold px-3 py-2 rounded-pill" href="#">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Social Links inside toggle -->
+            <div class="d-lg-none mt-3 d-flex flex-column align-items-center">
+                <div class="mb-2">
+                    <a href="#" class="me-3 social-link"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="me-3 social-link"><i class="fab fa-discord fa-lg"></i></a>
+                    <a href="#" class="me-3 social-link"><i class="fab fa-telegram fa-lg"></i></a>
+                    <a href="#" class="me-3 social-link"><i class="fab fa-reddit fa-lg"></i></a>
+
+                </div>
+                <a href="#" class="wallet-img d-inline-block mt-2">
+                    <img src="/Assets/wallet.png" alt="Wallet" class="button-icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Side Social Links & Wallet Image (Desktop) -->
+        <div class="d-none d-lg-flex align-items-center">
+            <a href="#" class="me-3 social-link"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="me-3 social-link"><i class="fab fa-discord fa-lg"></i></a>
+            <a href="#" class="me-3 social-link"><i class="fab fa-telegram fa-lg"></i></a>
+            <a href="#" class="me-3 social-link"><i class="fab fa-reddit fa-lg"></i></a>
+
+
+            <a href="#" class="wallet-img">
+                <img src="/Assets/wallet.png" alt="Wallet" class="button-icon">
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+<script>
+    window.addEventListener("scroll", function() {
+        let navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+            navbar.classList.add("scrolled");
+        } else {
+            navbar.classList.remove("scrolled");
+        }
+    });
+</script>
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <!-- Left Side: Text -->
+            <div class="col-md-6 py-20">
+                <h1 class="heroHeading fw-bold mt-1">
+                    Revolutionizing Meme <span class="highlight"> Coin Space</span>
+                </h1>
+                <p class="para fw-bold">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quidem, officia at eum tenetur blanditiis ducimus.
+                </p>
+
+                <!-- White Paper Button -->
+                <a href="/Assets/_TGBW WHITEPAPER.pdf" target="_blank" class="whitepaper-button" class="pt-1">
+                    White Paper
+                </a>
+            </div>
+
+            <!-- Right Side: Image -->
+            <div class="col-md-6 text-center pt-4">
+                <img src="/Assets/heroPic.gif" class="img-fluid rounded-3 hero-image" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="mission-vision-section">
+    <div class="mission-vision-container">
+        
+        <!-- Left Side: Image -->
+        <div class="mission-vision-image">
+            <img src="/Assets/vm-pic.gif" alt="Mission Vision Image">
+        </div>
+
+        <!-- Right Side: Mission and Vision Cards -->
+        <div class="mission-vision-content">
+            
+            <!-- Mission Card -->
+            <div class="mission-vision-card">
+                <h3 class="vm-heading">Our Mission</h3>
+                <p class="vm-para">Our vision is to create a deflationary, utility-driven ecosystem where token holders benefit from 
+                    scarcity, staking incentives, and long-term ecosystem expansion. Unlike short-lived hype-driven 
+                    projects, TGBW is designed for longevity, integrating real use cases, sustainable tokenomics, 
+                    and community governance. 
+                    </p>
+            </div>
+
+            <!-- Vision Card -->
+            <div class="mission-vision-card">
+                <h3 class="vm-heading">Our Vision</h3>
+                <ul class="vm-para">
+                    <li>Ensure long-term token sustainability through deflationary mechanics and controlled emissions.</li>
+                    <li>Create an engaged community where holders actively participate in governance and ecosystem development.</li>
+                    <li>Provide real utility beyond just trading, with staking, governance, and future integrations to maintain long-term value.</li>
+                    <li>Deliver transparency with a publicly visible development wallet and locked liquidity, ensuring trust and security.</li>
+                </ul>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+
+<section class="core-features-section py-5" >
+    <div class="container">
+        <!-- Main Heading -->
+        <h2 class="feature-heading text-center fw-bold mb-4">Core Features and Benefits</h2>
+
+        <!-- Feature List -->
+        <div class="features-list">
+            <!-- Feature 1 -->
+            <div class="mb-3">
+                <button class="btn-arrow w-100 text-start d-flex justify-content-between align-items-center" 
+                        data-bs-toggle="collapse" data-bs-target="#feature1" aria-expanded="false">
+                    Locked Supply and Deflationary Model 
+                    <span class="arrow-icon">▼</span>
+                </button>
+                <div id="feature1" class="collapse mt-2" data-bs-parent=".features-list">
+                    <p class="text-white p-3 rounded">
+                        100M TGBW permanently burned to create scarcity and increase value over time. 
+                        200M TGBW locked to fund long-term staking rewards, governance incentives, and ecosystem expansion.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="mb-3">
+                <button class="btn-arrow w-100 text-start d-flex justify-content-between align-items-center" 
+                        data-bs-toggle="collapse" data-bs-target="#feature2" aria-expanded="false">
+                    Transparency and Security 
+                    <span class="arrow-icon">▼</span>
+                </button>
+                <div id="feature2" class="collapse mt-2" data-bs-parent=".features-list">
+                    <p class="text-white p-3 rounded">
+                        Development Wallet (6.28% of total supply) is publicly visible, ensuring clear allocation for growth and development. 
+                        Liquidity is locked, preventing early dumps and rug-pull risks.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="mb-3">
+                <button class="btn-arrow w-100 text-start d-flex justify-content-between align-items-center" 
+                        data-bs-toggle="collapse" data-bs-target="#feature3" aria-expanded="false">
+                    Anti-Rug Measures and Sustainable Growth 
+                    <span class="arrow-icon">▼</span>
+                </button>
+                <div id="feature3" class="collapse mt-2" data-bs-parent=".features-list">
+                    <p class="text-white p-3 rounded">
+                        No stealth mints, unfair presales, or insider advantages—the distribution model is fair and transparent. 
+                        Community-driven governance empowers holders to vote on key developments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="mb-3">
+                <button class="btn-arrow w-100 text-start d-flex justify-content-between align-items-center" 
+                        data-bs-toggle="collapse" data-bs-target="#feature4" aria-expanded="false">
+                    Utility and Future Growth 
+                    <span class="arrow-icon">▼</span>
+                </button>
+                <div id="feature4" class="collapse mt-2" data-bs-parent=".features-list">
+                    <p class="text-white p-3 rounded">
+                        Staking Rewards – Incentivizing long-term holding. Play-to-Earn Integration – TGBW will be used in a real ecosystem. 
+                        Future Exchange Listings – Expanding market reach and liquidity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+<section class="token-allocation-section " style="padding-top: 100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center text-center">
+                <h2 class="fw-bold mb-4" >TGBW Token Allocation</h2>
+                <ul class="text-white fs-4 text-start">
+                    <li><strong><span style="font-size: 30px; color: red;">Burned:</span></strong> 100,000,000 TGBW (11.1%) – Permanently removed from circulation to create scarcity.</li>
+                    <li><strong><span style="font-size: 30px; color: red;">Locked:</span></strong> 200,000,000 TGBW (22.2%) – Reserved for future ecosystem expansion, including incentives.</li>
+                    <li><strong><span style="font-size: 30px; color: red;">Development Wallet:</span></strong> 56,520,000 TGBW (6.28%) – Dedicated to ongoing development, marketing, and ecosystem growth.</li>
+                    <li><strong><span style="font-size: 30px; color: red;">Circulating Supply:</span></strong> 543,480,000 TGBW (60.4%) – Available on the open market for trading, liquidity, and ecosystem participation.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <canvas id="tokenChart" style="max-width: 500px; max-height: 500px; align-content: end;"></canvas>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const ctx = document.getElementById("tokenChart").getContext("2d");
+        new Chart(ctx, {
+            type: "pie",
+            data: {
+                labels: [
+                    "Burned (11.1%)", 
+                    "Locked (22.2%)", 
+                    "Development Wallet (6.28%)", 
+                    "Circulating Supply (60.4%)"
+                ],
+                datasets: [{
+                    data: [11.1, 22.2, 6.28, 60.4],
+                    backgroundColor: ["#2b6180", "#BF7F29", "#FF0000", "#8F8C58"],
+                    borderColor: "#121212",
+                    borderWidth: 2,
+                }],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: "bottom",
+                        labels: {
+                            color: "white",
+                            font: { size: 14 }
+                        },
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (tooltipItem) {
+                                let value = tooltipItem.raw;
+                                return `${tooltipItem.label}: ${value}%`;
+                            }
+                        }
+                    },
+                    datalabels: {
+                        color: 'black',
+                        font: { weight: 'bold', size: 14 },
+                        formatter: (value) => value + "%",
+                    }
+                },
+            },
+            plugins: [ChartDataLabels]
+        });
+    });
+</script>
+
+
+
+
+<section class="roadmap-container" style="padding-top: 70px;">
+    <div class="roadmap-section">
+        <h1 class="roadmap-title pb-5">Development Roadmap</h1>
+        <ul class="timeline">
+            <li class="timeline-item" style="--accent-color:#B50120">
+                <div class="date text-dark ">Phase 1: Foundation (Completed)</div>
+                <div class="title">Token Setup & Market Stability</div>
+                <div class="descr" style="font-size: 14px;min-width: 150px">
+                        - 900M total supply, 100M burned, 200M locked.
+                        - Established liquidity, ~$70K market cap floor.
+                        - 6.28% allocated for future development.
+                        - Built active community.
+                    
+                </div>
+            </li>
+            <li class="timeline-item" style="--accent-color:#B50120">
+                <div class="date text-dark">Phase 2: Utility & Growth (Ongoing)</div>
+                <div class="title">Expanding Utility & Governance</div>
+                <div class="descr" style="font-size: 14px;min-width: 200px">
+                    - Implementing staking rewards.<br>
+                    - Seeking strategic partnerships.<br>
+                    - Enhancing token scarcity (burns).<br>
+                    - Enabling holder voting (governance).
+                </div>
+            </li>
+            <li class="timeline-item" style="--accent-color:#B50120">
+                <div class="date text-dark">Phase 3: Play-to-Earn (In Development)</div>
+                <div class="title">Play-to-Earn Integration</div>
+                <div class="descr" style="font-size: 14px;min-width: 200px">
+                    - Finalizing in-game TGBW use.<br>
+                    - Advanced staking tiers.<br>
+                    - Expanding exchange listings.<br>
+                    - Play-to-earn game development.
+                </div>
+            </li>
+            <li class="timeline-item" style="--accent-color:#B50120">
+                <div class="date text-dark">Phase 4: Long-Term Expansion (Future)</div>
+                <div class="descr" style="font-size: 14px;min-width: 200px">
+                    - Ecosystem growth & new integrations.<br>
+                    - Sustainable holder rewards.<br>
+                    - Cross-platform Web3 utility.<br>
+                    - Scaling play-to-earn game.
+                </div>
+            </li>
+        
+        </ul>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <!-- Logo & About -->
+        <div class="footer-col logo-col p-0 align-items-center text-center">
+          <img src="Assets/logo.webp" alt="Meme Coin Logo">
+          <p>The funniest meme coin on the blockchain! Join our community.</p>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 style="color: #BF7F29;">Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Tokenomics</a></li>
+            <li><a href="#">Roadmap</a></li>
+          </ul>
+        </div>
+  
+        <!-- Resources -->
+        <div class="footer-col">
+          <h4 style="color: #BF7F29;">Resources</h4>
+          <ul>
+            <li><a href="#">Whitepaper</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Social Media & Info -->
+        <div class="footer-col social-col">
+          <h4 style="color: #BF7F29;" >Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-reddit"></i></a>
+          </div>
+          <p>© 2025 Meme Coin. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".btn-arrow");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", function () {
+                // Close all other arrows
+                buttons.forEach(btn => {
+                    if (btn !== this) {
+                        btn.classList.remove("active");
+                        btn.querySelector(".arrow-icon").style.transform = "rotate(0deg)";
+                    }
+                });
+
+                // Toggle the clicked one
+                if (this.classList.contains("active")) {
+                    this.classList.remove("active");
+                    this.querySelector(".arrow-icon").style.transform = "rotate(0deg)";
+                } else {
+                    this.classList.add("active");
+                    this.querySelector(".arrow-icon").style.transform = "rotate(180deg)";
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
